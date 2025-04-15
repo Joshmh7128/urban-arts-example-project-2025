@@ -1,0 +1,67 @@
+.vscode/
+!Assets/Wasteland/Skybox/NiceSky.exr*
+# =============== #
+# Unity generated #
+# =============== #
+IGNORE/
+*.dwlt
+
+#Bakery
+#*.tga*
+#*.hdr*
+#*.exr*
+Assets/BakeryLightmaps/*
+[Tt]emp/
+[Oo]bj/
+[Bb]uild
+[Bb]uilds
+[Ll]ibrary/
+Packages/*
+Packages
+Packages/
+sysinfo.txt
+*.stackdump
+*LightingData.asset
+*ReflectionProbe* 
+Assets/_TerrainAutoUpgrade/*
+Assets/Editor/x64/Bakery/cudnn64_7.dll
+BuildReports*
+BuildReport*
+Logs/
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+.vs/
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln*
+*.user
+*.unityproj
+*.booproj
+.idea
+*.exr 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+
+node_modules
+dist
+
+# Jet Brains User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
+SerializedBuildInfo/*
+UserSettings/EditorUserSettings.asset
