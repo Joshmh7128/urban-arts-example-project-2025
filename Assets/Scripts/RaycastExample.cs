@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RaycastExample : MonoBehaviour
 {
+
     RaycastHit2D hit2D;
     [SerializeField] float distance = 1f;
     [SerializeField] Vector2 offset = new Vector2(0, 0);
