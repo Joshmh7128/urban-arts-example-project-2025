@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.PackageManager;
 using UnityEngine;
 
 public class NormalExample : MonoBehaviour
@@ -41,5 +40,9 @@ public class NormalExample : MonoBehaviour
         Gizmos.color = Color.magenta;
         Gizmos.DrawLine(hitPoint, hitPoint + (hitNormal * 3));
         Gizmos.DrawSphere(hitPoint + (hitNormal * 3), 0.1f);
+        Gizmos.color = Color.yellow;
+        Vector3 origin = hitPoint;
+        Vector3 reflection = Vector3.Reflect(transform.eulerAngles, hitNormal);
+        Gizmos.DrawLine(hitPoint, (reflection));
     }
 }
